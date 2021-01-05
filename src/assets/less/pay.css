@@ -1,0 +1,101 @@
+.pay {
+  padding-top: 50px;
+  padding-bottom: 74px;
+}
+.pay .left {
+  width: 20px;
+  height: 20px;
+}
+.pay .title {
+  font-weight: bold;
+  color: #f0134b;
+}
+.pay /deep/ .info-title {
+  color: #665566;
+  font-weight: bold;
+}
+.pay /deep/ .van-nav-bar .van-icon {
+  color: #0C34BA;
+}
+.pay /deep/ .van-nav-bar__text {
+  color: #0C34BA;
+}
+.pay .pay-box {
+  padding: 10px;
+}
+.pay .pro-name {
+  font-size: 14px;
+  color: #656565;
+}
+.pay .select-address {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+.pay .user-info {
+  display: flex;
+  line-height: 19px;
+}
+.pay .user-box {
+  margin-top: 20px;
+}
+.pay .user-name {
+  color: #0C34BA;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.pay .detail-address {
+  margin-top: 10px;
+  color: #999;
+}
+.pay .arrow {
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+.pay .order-info {
+  margin-top: 10px;
+}
+.pay /deep/ .van-button--danger {
+  background-color: #0C34BA;
+  border-color: #0C34BA;
+}
+.pay /deep/ .van-address-item {
+  border-bottom: 1px solid #e8e8e8;
+}
+.pay /deep/ .van-address-item:last-child {
+  border-bottom: none;
+}
+.pay /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #0C34BA;
+  border-color: #0C34BA;
+}
+.pay /deep/ .van-tag--danger {
+  background-color: #0C34BA;
+}
+.pay /deep/ .van-icon-edit {
+  display: none;
+}
+.pay .address-title {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.pay .btn-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+.pay .default-address {
+  font-size: 12px;
+  background-color: #0C34BA;
+  color: #fff;
+  width: 40px;
+  text-align: center;
+  height: 20px;
+  line-height: 21px;
+  border-radius: 10px;
+  margin-left: 20px;
+}

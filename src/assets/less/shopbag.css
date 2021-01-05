@@ -1,0 +1,141 @@
+.shopbag {
+  padding-top: 46px;
+}
+.shopbag /deep/ .van-nav-bar .van-icon {
+  color: #f0134d;
+}
+.shopbag .right {
+  width: 15px;
+  height: 15px;
+}
+.shopbag .title {
+  font-weight: bold;
+  color: #f0134d;
+}
+.shopbag /deep/ .van-nav-bar__text {
+  color: #f0134d;
+}
+.shopbag .bottom-button {
+  width: 100px;
+  height: 30px;
+}
+.shopbag .left-img {
+  width: 20px;
+  height: 20px;
+}
+.shopbag .shopbag-bg {
+  height: 50px;
+  background: url("../images/shopbag_bg.png") no-repeat center center;
+  background-size: cover;
+}
+.shopbag .shopbag-product {
+  padding: 10px;
+}
+.shopbag .shopbag-item {
+  margin-bottom: 10px;
+}
+.shopbag .shopbag-item:last-child {
+  margin-bottom: 0;
+}
+.shopbag /deep/ .van-button {
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+}
+.shopbag .cell-item /deep/ .van-button {
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.shopbag .cell-item-box {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.shopbag .check-box {
+  width: 20px;
+  height: 20px;
+  margin-top: 30px;
+}
+.shopbag .pro-info-box {
+  height: 80px;
+  width: calc(100% - 34px);
+  margin-left: 10px;
+}
+.shopbag .pro-img {
+  width: 80px;
+  height: 80px;
+}
+.shopbag .pro-info {
+  width: calc(100% - 90px);
+  margin-left: 10px;
+}
+.shopbag .pro-info-text {
+  height: 50px;
+}
+.shopbag .pro-count-box {
+  height: 30px;
+}
+.shopbag .pro-enname {
+  font-size: 10px;
+  color: #999;
+  margin-top: 5px;
+}
+.shopbag .pro-name {
+  font-size: 14px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.shopbag .pro-rule {
+  font-size: 10px;
+  color: #999;
+}
+.shopbag .pro-price {
+  font-size: 14px;
+  color: #f0134d;
+  font-weight: bold;
+  line-height: 30px;
+}
+.shopbag /deep/ .van-stepper--round .van-stepper__plus {
+  background-color: #f0134d;
+}
+.shopbag .step-box {
+  margin-top: 5px;
+}
+.shopbag .a {
+  display: flex;
+}
+.shopbag .a > div {
+  width: 120px;
+  height: 40px;
+}
+.shopbag .a > div.active {
+  background-color: #f0134d;
+}
+.shopbag .shopbag-box {
+  padding-bottom: 50px;
+}
+.shopbag .shopbag-box /deep/ .van-submit-bar {
+  bottom: 50px;
+}
+.shopbag .shopbag-box /deep/ .van-submit-bar__price {
+  color: #f0134d;
+}
+.shopbag .shopbag-box /deep/ .van-checkbox__icon--checked .van-icon {
+  background-color: #0C34BA;
+  border-color: #0C34BA;
+}
+.shopbag .shopbag-box /deep/ .van-checkbox__label {
+  font-weight: bold;
+  color: #646566;
+}
+.shopbag .shopbag-box /deep/ .van-submit-bar__text > span {
+  color: #646566;
+  font-weight: bold;
+}
+.shopbag .shopbag-box .van-submit-bar__bar .van-button {
+  margin-left: auto;
+}
+.shopbag .names {
+  line-height: 19px;
+}

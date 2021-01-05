@@ -1,0 +1,94 @@
+.login {
+    /deep/ .van-nav-bar__text {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .content /deep/ .van-field__control {
+        text-align: left;
+    }
+
+    .nav-left {
+        display: flex;
+        align-items: center;
+
+        .left-logo {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-image: url(../images/logo.png);
+            background-size: 100%;
+        }
+    }
+
+    .login-title {
+        margin: 100px 0 0 18px;
+
+        .h2 {
+            color: black;
+            font-size: 30px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .p {
+            margin: 0;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    }
+
+    .form {
+        padding: 40px 18px 0;
+
+        &::before {
+            display: block;
+            contain: "";
+            clear: both;
+        }
+
+        /deep/ .van-cell {
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid #F3DFE3;
+            padding: 10px 0;
+
+            /deep/ .van-cell__title span {
+                color: #FD5E53;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+
+        .forget {
+            float: right;
+            font-size: 12px;
+            color: #FD5E53;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .register {
+            margin-top: 60px;
+        }
+
+        .sign {
+            margin-top: 30px;
+        }
+    }
+
+    .popup {
+        .form2 {
+            .popup-zc {
+                font-size: 30px;
+                margin: 10px 0 20px 18px;
+                font-weight: bold;
+            }
+            /deep/ .van-cell__title span{
+                color: #FD5E53;
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+
+    }
+}

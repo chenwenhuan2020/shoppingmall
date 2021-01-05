@@ -1,0 +1,74 @@
+.login /deep/ .van-nav-bar__text {
+  font-weight: bold;
+  font-size: 18px;
+}
+.login .content /deep/ .van-field__control {
+  text-align: left;
+}
+.login .nav-left {
+  display: flex;
+  align-items: center;
+}
+.login .nav-left .left-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url(../images/logo.png);
+  background-size: 100%;
+}
+.login .login-title {
+  margin: 100px 0 0 18px;
+}
+.login .login-title .h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+.login .login-title .p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.login .form {
+  padding: 40px 18px 0;
+}
+.login .form::before {
+  display: block;
+  contain: "";
+  clear: both;
+}
+.login .form /deep/ .van-cell {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #F3DFE3;
+  padding: 10px 0;
+}
+.login .form /deep/ .van-cell /deep/ .van-cell__title span {
+  color: #FD5E53;
+  font-weight: bold;
+  font-size: 20px;
+}
+.login .form .forget {
+  float: right;
+  font-size: 12px;
+  color: #FD5E53;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.login .form .register {
+  margin-top: 60px;
+}
+.login .form .sign {
+  margin-top: 30px;
+}
+.login .popup .form2 .popup-zc {
+  font-size: 30px;
+  margin: 10px 0 20px 18px;
+  font-weight: bold;
+}
+.login .popup .form2 /deep/ .van-cell__title span {
+  color: #FD5E53;
+  font-size: 18px;
+  font-weight: bold;
+}

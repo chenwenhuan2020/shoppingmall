@@ -1,0 +1,47 @@
+.address {
+  padding-top: 100px;
+}
+.address .left {
+  width: 20px;
+  height: 20px;
+}
+.address .title {
+  color: #f0134b;
+  font-weight: bold;
+}
+.address .new-address {
+  padding-top: 100px;
+}
+.address /deep/ .van-nav-bar__title {
+  color: #ff80b0;
+  font-weight: bold;
+}
+.address /deep/ .bg-box .bg[data-v-37cc9f74] {
+  background-color: #f0134d;
+}
+.address /deep/ .van-nav-bar .van-icon {
+  color: #0c34ba;
+}
+.address /deep/ .van-nav-bar__text {
+  color: #0c34ba;
+}
+.address /deep/ .van-tag--danger {
+  background-color: #0c34ba;
+}
+.address /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #0c34ba;
+  border-color: #0c34ba;
+}
+.address /deep/ .van-address-list {
+  padding: 0;
+}
+.address /deep/ .van-address-item {
+  border-bottom: 1px solid #e8e8e8;
+}
+.address /deep/ .van-address-item:last-child {
+  border-bottom: none;
+}
+.address /deep/ .van-button--danger {
+  background-color: #0c34ba;
+  border-color: #0c34ba;
+}
